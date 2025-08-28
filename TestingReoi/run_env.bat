@@ -1,8 +1,7 @@
 @echo off
-REM $1 = environment parameter
 SET ENV=%1
 
-REM Set port and log file dynamically
+REM Set port dynamically
 IF "%ENV%"=="dev" SET PORT=1990
 IF "%ENV%"=="sit" SET PORT=1991
 IF "%ENV%"=="prod" SET PORT=1992
