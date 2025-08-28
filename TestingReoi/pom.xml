@@ -68,6 +68,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		
+	
+        <finalName>myapp</finalName> <!-- 👈 This sets your JAR name -->
+
 	</build>
 
 </project>
